@@ -39,3 +39,20 @@
 # 8. Exit the program
 # - display a goodbye message
 # - end the program
+# ask for a name
+# create a greeting
+# show the greeting
+ 
+def ask_name():
+    name = input("What is your name? ")
+    return name
+ 
+ 
+def create_greeting(name):
+    greeting = "Hello, " + name + "!"
+    return greeting
+ 
+ 
+user_name = ask_name()
+message = create_greeting(user_name)
+print(message)
